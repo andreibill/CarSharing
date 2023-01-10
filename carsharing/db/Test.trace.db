@@ -1,0 +1,26 @@
+2023-01-10 17:32:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] CUSTOMER(ID INT PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR UNIQUE NOT NULL,RENTED_CAR_ID INT,FOREIGN KEY (RENTED_CAR_ID) REFERENCES CAR(ID))"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST customer(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,FOREIGN KEY (rented_car_id) REFERENCES car(id)) [42001-200]
+2023-01-10 17:32:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] CUSTOMER(ID INT PRIMARY KEY AUTO_INCREMENT,NAME VARCHAR UNIQUE NOT NULL,RENTED_CAR_ID INT,FOREIGN KEY (RENTED_CAR_ID) REFERENCES CAR(ID))"; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST customer(id INT PRIMARY KEY AUTO_INCREMENT,name VARCHAR UNIQUE NOT NULL,rented_car_id INT,FOREIGN KEY (rented_car_id) REFERENCES car(id)) [42001-200]
+2023-01-10 17:44:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "COSTUMER" not found; SQL statement:
+SELECT * FROM costumer ORDERED BY id; [42102-200]
+2023-01-10 17:47:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM CUSTOMER ORDERED BY[*] ID;"; SQL statement:
+SELECT * FROM customer ORDERED BY id; [42000-200]
+2023-01-10 18:15:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:17:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:20:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:20:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:21:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:23:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
+2023-01-10 18:24:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: No data is available [2000-200]
